@@ -107,7 +107,17 @@ def update_output(option):
     elif option=="6":
         return "Remember in MOOD I you said 'Ill even Hug Arpit' . My jealousy , and rage took over my brain and I used the name of Shreya Pandey to make u feel jealous. Such a shameful act from my end. I literally went to justify my action , increasing your rage to infinity. I am so so sorry for that kind of behaviour. Please shout your heart out if anything is sustained in your heart. I promise to hear you out calmy and with maturity meri jaan." 
     elif option=="7":
-        return html.Div(children=[html.H1("Meri Jaan"),html.P("Lafzon mei kaid pyaar bas hai kiya, Dil mei sanjo ke kuch khaas tha rakha, safar ke sapne the motiyon se sajile, hatane the kaante par khud ban gaya ",html.Br(),"I wont let any of those prick you . Not even I will unintentionally or intentionally become one of those thorns. I really love you from the bottom of my heart and will definitely prove it . You are the only person i Trust blindly on , infront of whom i love to be natural , love to be me. But in the race to achieve peace i just focused on mine . I am really guilty of making you feel so worthless . You are the most precious person and i can engrave it on my arms. Please be by my side and please thoda sa bharosa karlena if possible. Ill give my 200% to this relationship and we will make it together the most beautiful one. We will bring back the love , smile and respect .",html.Br(),"Meri Jaan , There was no one above you , There is no one above you , There will be no one ever above you")])
+        return (html.Div(children=[
+    html.H1("Meri Jaan"),
+    html.P([
+        "Lafzon mei kaid pyaar bas hai kiya, Dil mei sanjo ke kuch khaas tha rakha, safar ke sapne the motiyon se sajile, hatane the kaante par khud ban gaya ",
+        html.Br(),
+        "I won't let any of those prick you. Not even I will unintentionally or intentionally become one of those thorns. I really love you from the bottom of my heart and will definitely prove it. You are the only person I trust blindly on, in front of whom I love to be natural, love to be me. But in the race to achieve peace I just focused on mine. I am really guilty of making you feel so worthless. You are the most precious person and I can engrave it on my arms. Please be by my side and please thoda sa bharosa karlena if possible. I'll give my 200% to this relationship and we will make it together the most beautiful one. We will bring back the love, smile and respect.",
+        html.Br(),
+        "Meri Jaan, There was no one above you, There is no one above you, There will be no one ever above you."
+    ])
+]))
+
 # Run the app
 import os
 
