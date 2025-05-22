@@ -103,5 +103,9 @@ def update_output(option):
     elif option=="5":
         return "Defending Shreya Pandey, Chatting with Shreya Pandey. You hate that person and I simply let away what you hated like the most inhuman person. No one can forgive me and i have no words for my rubbish behaviour. Call it immaturity , lack of understanding, lack of knowledge of how things in relationship should work, lack of presence of mind. I am ready to hear all you have to say about it. 1000 slangs are also less for my act . Then i also celebrated her birthday. I know how hurt you would be because of all these. If and only if u can believe me ill never let any such thing happen . I wont let u be hurt at all. You are priority and u will be my biggest priority. Call me if u want to shout on me . Ill not object or defend or argue . I didnt listen then but ill listen everything X 3 this time Pakaa!!."
 # Run the app
+import os
+
 if __name__ == '__main__':
-    app.run(port=8050, debug=True)
+    port = int(os.environ.get("PORT", 8050))
+    app.run(host='0.0.0.0', port=port, debug=True)
+
