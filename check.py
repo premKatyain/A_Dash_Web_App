@@ -13,8 +13,10 @@ text_options = [
     {'label': 'Slept without solving', 'value': '1'},
     {'label': 'Fought when u were already sick', 'value': '2'},
     {'label': 'Lost attention', 'value': '3'},
-    {'label': 'Burp ka Hindi Vivaad', 'value': '4'},
-    {'label': 'The Cheating', 'value': '5'}
+    {'label': 'Burp in Hindi Tragedy', 'value': '4'},
+    {'label': 'The Cheating', 'value': '5'},
+    {'label':'MOOD-I Tragedy','value':'6'},
+    {'label':'Conclusion','value':'7'}
 ]
 
 # App layout
@@ -102,6 +104,10 @@ def update_output(option):
         return "I used that bad word and argued a lot and even shouted at you like anything. It should have respected what you like and what you dont. I truly acknowledge it."
     elif option=="5":
         return "Defending Shreya Pandey, Chatting with Shreya Pandey. You hate that person and I simply let away what you hated like the most inhuman person. No one can forgive me and i have no words for my rubbish behaviour. Call it immaturity , lack of understanding, lack of knowledge of how things in relationship should work, lack of presence of mind. I am ready to hear all you have to say about it. 1000 slangs are also less for my act . Then i also celebrated her birthday. I know how hurt you would be because of all these. If and only if u can believe me ill never let any such thing happen . I wont let u be hurt at all. You are priority and u will be my biggest priority. Call me if u want to shout on me . Ill not object or defend or argue . I didnt listen then but ill listen everything X 3 this time Pakaa!!."
+    elif option=="6":
+        return "Remember in MOOD I you said 'Ill even Hug Arpit' . My jealousy , and rage took over my brain and I used the name of Shreya Pandey to make u feel jealous. Such a shameful act from my end. I literally went to justify my action , increasing your rage to infinity. I am so so sorry for that kind of behaviour. Please shout your heart out if anything is sustained in your heart. I promise to hear you out calmy and with maturity meri jaan." 
+    elif option=="7":
+        return html.Div([html.H1("Meri Jaan"),html.P("Lafzon mei kaid pyaar bas hai kiya, Dil mei sanjo ke kuch khaas tha rakha, safar ke sapne the motiyon se sajile, hatane the kaante par khud ban gaya ",html.Br(),"I wont let any of those prick you . Not even I will unintentionally or intentionally become one of those thorns. I really love you from the bottom of my heart and will definitely prove it . You are the only person i Trust blindly on , infront of whom i love to be natural , love to be me. But in the race to achieve peace i just focused on mine . I am really guilty of making you feel so worthless . You are the most precious person and i can engrave it on my arms. Please be by my side and please thoda sa bharosa karlena if possible. Ill give my 200% to this relationship and we will make it together the most beautiful one. We will bring back the love , smile and respect .",html.Br(),"Meri Jaan , There was no one above you , There is no one above you , There will be no one ever above you")])
 # Run the app
 import os
 
